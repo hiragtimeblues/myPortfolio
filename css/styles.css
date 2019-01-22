@@ -45,14 +45,24 @@ header{
 
 .main_visual h2{
 	margin: 0;
-	font-size: 100px;
+	font-size: 120px;
 	color: #ff5b0a;
 	letter-spacing: -6px;
 	line-height: 70px;
 	position: absolute;
-	bottom: -5%;
-	right: 12%;
+	bottom: -4%;
+	right: 13%;
 }
+
+.main_visual h2 span{
+	letter-spacing: -8px;
+}
+
+.main_visual h2 .space{
+	letter-spacing: -18px;
+}
+
+
 
 
 /*navigation*/
@@ -249,6 +259,12 @@ nav ul a:hover{
 	font-size: 13px;
 }
 
+.works_img p{
+	font-size: 10px;
+	letter-spacing: 0;
+	color: white;
+}
+
 
 /*private*/
 .private{
@@ -302,6 +318,11 @@ nav ul a:hover{
 	margin-left: 5px;
 	transition: transform .4s;
 	font-size: 13px;
+}
+
+.private p{
+	font-size: 10px;
+	letter-spacing: 0;
 }
 
 
