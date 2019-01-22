@@ -1,0 +1,342 @@
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	color: #1d1f23;
+	list-style: none;
+	letter-spacing: 2px;
+}
+
+a{
+	color: #1d1f23;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+header{
+	padding: 120px 45px;
+}
+
+.main_visual{
+	position: relative;
+}
+
+.img_container{
+	margin: 0 auto;
+	width: 70%;
+}
+
+
+.main_visual h1{
+	margin: 0;
+	font-size: 80px;
+	text-align: left;
+	color: #ff5b0a;
+	font-weight: bold;
+	letter-spacing: -1px;
+	line-height: 70px;
+	position: absolute;
+	top: -10%;
+	left: 3%;
+}
+
+.main_visual h2{
+	margin: 0;
+	font-size: 100px;
+	color: #ff5b0a;
+	letter-spacing: -6px;
+	line-height: 70px;
+	position: absolute;
+	bottom: -5%;
+	right: 12%;
+}
+
+
+/*navigation*/
+nav{
+	color: #1d1f23;
+}
+
+nav .logo{
+	margin-right: 30px;
+	letter-spacing: 0px;
+}
+
+nav .logo span, footer p span{
+	 color: #ff5b0a;
+}
+
+nav ul{
+	padding-top: 5px;
+}
+
+nav ul li{
+	display: inline-block;
+	cursor: pointer;
+}
+
+nav ul a{
+	position: relative;
+	margin: 0 30px;
+}
+
+nav ul a:after{
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: #ff5b0a;
+  transform: scale(0, 1);
+  transform-origin: left top;
+  transition: transform .4s;
+}
+
+nav ul a:hover::after {
+  transform: scale(1, 1);
+}
+
+nav ul a:hover{
+	color: #ff5b0a;
+}
+
+
+/*About me*/
+.about{
+	text-align: center;
+	padding: 150px 0;
+}
+
+.about h3{
+	font-weight: normal;
+	margin: 0 0 20px 0;
+	display: inline-block;
+	font-size: 25px;
+}
+
+.about h3:after{
+	content: "―プロフィール―";
+	position: absolute;
+	font-weight: lighter;
+	font-size: 13px;
+	font-style: italic;
+    margin-left: 40px;
+    padding-top: 12px;
+}
+
+.myPhoto{
+	width: 200px;
+}
+
+.myPhoto img{
+	width: 170px;
+	height: 170px;
+	border-radius: 50%;
+	margin-top: 10px;
+}
+
+.myPhoto p{
+	text-align: left;
+	font-size: 12px;
+	padding-left: 20px;
+}
+
+.flex_container{
+	margin-left: 40px;
+	display: flex;
+	justify-content: center;
+}
+
+.about_text{
+	text-align: right;
+	width: 50%;
+	margin-left: 30px;
+}
+
+.about_text p{
+	font-size: 14px;
+	text-align: left;
+}
+
+.about_text p .small_date{
+	font-size: 12px;
+}
+
+.about_text a i{
+	font-size: 25px;
+	margin-right: 13px;
+	transition: 0.4s;
+}
+
+.about_text a i:hover{
+	color: #ff5b0a;
+	transform: scale(1.2);
+}
+
+
+/*works*/
+.works{
+	text-align: center;
+	padding: 150px 0;
+	position: relative;
+	color: #fff;
+}
+
+.works:after{
+	content: "";
+	position: absolute;
+	background: #1d1f23;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	top: 15px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: skewY(7deg);
+}
+
+.works h3{
+	font-weight: normal;
+	margin: 0 0 20px 0;
+	display: inline-block;
+	font-size: 25px;
+}
+
+.works h3:after{
+	content: "―これまでの制作実績―";
+	position: absolute;
+	font-weight: lighter;
+	font-size: 13px;
+	font-style: italic;
+    margin-left: 40px;
+    padding-top: 12px;
+}
+
+.works .a_border{
+	position: relative;
+	color: #fff;
+}
+
+.works .a_border:after{
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: #fff;
+  transform: scale(0, 1);
+  transform-origin: left top;
+  transition: transform .4s;
+}
+
+#arrow{
+	color: #fff;
+}
+
+.works .a_border:hover::after {
+  transform: scale(1, 1);
+}
+
+.works .a_border i{
+	margin-left: 5px;
+	transition: transform .4s;
+	font-size: 13px;
+}
+
+
+/*private*/
+.private{
+	text-align: center;
+	padding: 180px 0 100px 0;
+}
+
+.private h3{
+	font-weight: normal;
+	margin: 0 0 20px 0;
+	display: inline-block;
+	font-size: 25px;
+}
+
+.private h3:after{
+	content: "―個人的に作ったものや写真―";
+	position: absolute;
+	font-weight: lighter;
+	font-size: 13px;
+	font-style: italic;
+    margin-left: 40px;
+    padding-top: 12px;
+}
+
+.private_img{
+	margin-bottom: 20px;
+}
+
+.private .a_border{
+	position: relative;
+}
+
+.private .a_border:after{
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: grey;
+  transform: scale(0, 1);
+  transform-origin: left top;
+  transition: transform .4s;
+}
+
+.private .a_border:hover::after {
+  transform: scale(1, 1);
+}
+
+.private .a_border i{
+	margin-left: 5px;
+	transition: transform .4s;
+	font-size: 13px;
+}
+
+
+/*footer*/
+footer{
+	line-height: 100px;
+	border-top: 2px solid grey;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 100px;
+	width: 700px;
+}
+
+footer p{
+	display: inline-block;
+	padding-left: 180px;
+	margin-right: 100px;
+	font-weight: lighter;
+	font-size: 15px;
+	clear: both;
+}
+
+footer div{
+	display: inline-block;
+}
+
+footer a i{
+	font-size: 20px;
+	margin-left: 10px;
+	transition: 0.4s;
+}
+
+footer a i:hover{
+	color: #ff5b0a;
+	transform: scale(1.2);
+}
+
+
