@@ -124,7 +124,6 @@ nav ul a:hover{
 .about h3{
 	font-weight: normal;
 	margin: 0 0 20px 0;
-	display: inline-block;
 	font-size: 25px;
 }
 
@@ -213,7 +212,6 @@ nav ul a:hover{
 .works h3{
 	font-weight: normal;
 	margin: 0 0 20px 0;
-	display: inline-block;
 	font-size: 25px;
 }
 
@@ -275,7 +273,6 @@ nav ul a:hover{
 .private h3{
 	font-weight: normal;
 	margin: 0 0 20px 0;
-	display: inline-block;
 	font-size: 25px;
 }
 
