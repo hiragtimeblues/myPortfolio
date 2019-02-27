@@ -27,6 +27,8 @@ header{
 .img_container{
 	margin: 0 auto;
 	width: 70%;
+	z-index: -1000;
+	user-select:none
 }
 
 
@@ -41,6 +43,7 @@ header{
 	position: absolute;
 	top: -10%;
 	left: 3%;
+	user-select:none
 }
 
 .main_visual h2{
@@ -52,6 +55,7 @@ header{
 	position: absolute;
 	bottom: -4%;
 	right: 13%;
+	user-select:none
 }
 
 .main_visual h2 span{

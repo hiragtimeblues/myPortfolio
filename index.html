@@ -5,7 +5,6 @@
 	<title>Nozomu Hirata</title>
 	<link rel="shortcut icon" href="images/favicon.png " type="image/vnd.microsoft.icon" /> 
 	<link rel="icon" href="images/favicon.png" type="image/vnd.microsoft.icon" />
-
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display|Roboto:500,900" rel="stylesheet">
 
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
@@ -14,12 +13,13 @@
 	<link rel="stylesheet" type="text/css" href="css/modaal.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
 
 
 <!-- main visual -->
-	<header id="top">
+	<header id="top" class="ripples">
 		<div class="main_visual">
 			<h1 data-aos="fade-up-right" data-aos-easing="ease-in-out" data-aos-delay="200">Reach out to the moon,<br> even if we can't.</h1>
 			<h2 data-aos="fade-up-left" data-aos-delay="700">2<span>0<span class="space">19</span></span></h2>
@@ -142,10 +142,19 @@
 	</footer>
 
 
+<!-- ripples -->
+	<script src="js/jquery.ripples.js"></script>
+	<script>
+		$(function(){
+			$(".ripples").ripples();
+		});
+	</script>
+
+
 
 <!-- AOS -->
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>AOS.init();</script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>AOS.init();</script>
 
 
 
@@ -171,7 +180,6 @@
 	</script>
 
 <!-- slick slider -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="js/slick.js"></script>
 	<script>
 		$(document).ready(function(){
