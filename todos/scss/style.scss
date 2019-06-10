@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+}
+
+$main_color: #352f5b;
+$white: #fff;
+
+body {
+    background: $main_color;
+}
+
+.container {
+    padding: 100px 0;
+    max-width: 400px;
+    margin: 0 auto;
+     
+    header {
+        h1 {
+            text-align: center;
+            font-size: 40px;
+            margin-bottom: 20px;
+            width: 100%;
+            color: $white;
+
+        }
+
+        form.search{
+            text-align: center;
+
+            input {
+                width: 370px;
+                height: 35px;
+                color: $white;
+                border-radius: 5px;
+                border: none;
+                font-size: 14px;
+                padding: 0 15px;
+                background: darken($main_color, 5%);
+            }
+        }
+
+        
+    }
+
+    ul {
+            color: $white;
+
+            li {
+                margin-top: 15px;
+            }
+
+            .filtered {
+                display: none !important;
+            }
+        }
+    
+
+    .delete { 
+        cursor: pointer;
+    }
+
+    .add_form {
+        text-align: center;
+        margin-top: 20px;
+
+        label {
+            color: $white;
+            margin-right: 15px;
+            margin-bottom: 5px;
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+
+        input{
+            width: 370px;
+            height: 35px;
+            color: $white;
+            border-radius: 5px;
+            border: none;
+            font-size: 14px;
+            padding: 0 15px;
+            background: darken($main_color, 5%);
+        }
+    }
+}
