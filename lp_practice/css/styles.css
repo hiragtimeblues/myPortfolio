@@ -1,0 +1,349 @@
+:root{
+	--right-green: #8BD8BD;
+	--dark-blue: #243665;
+}
+
+body{
+	margin: 0;
+}
+
+.main{
+	background-color: var(--right-green);
+	/*padding: 0 200px;*/
+	height: 540px;
+}
+
+.main h1{
+	margin: 0;
+	padding-top: 70px; 
+	margin-left: 20%;
+}
+
+
+.main .inner_mv{
+	background: url(../img/mv.png) bottom right no-repeat;
+	height: 540px;
+	margin-right: 20%;
+}
+
+
+
+
+
+.fine_goshi{
+	padding: 50px 0;
+	text-align: center;
+}
+
+.inner_fine p{
+	margin-top: 40px;
+	color: var(--dark-blue);
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 50px;
+}
+
+
+
+
+
+.how_to{
+	background-color: var(--right-green);
+	padding: 50px 0;
+}
+
+.how_to h2{
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+	width: 460px;
+}
+
+.how_to h2 .fukidashi{
+	position: absolute;
+	right: -120px;
+}
+
+.flex_container{
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+	list-style: none;
+}
+
+.flex_item{
+	text-align: center;
+}
+
+.flex_item p{
+	color: var(--dark-blue);
+	font-weight: bold;
+	line-height: 25px;
+	font-size: 16px;
+	margin-bottom: 40px;
+}
+
+.flex_item:nth-child(2){
+	margin: 0 15px;
+}
+
+.video{
+	text-align: center;
+}
+
+.gallery{
+	padding: 50px 0;
+}
+
+.gallery_title{
+	text-align: center;
+}
+
+.gallery_title h2{
+	color: var(--dark-blue);
+	font-size: 36px;
+	font-weight: bold;
+	font-family: 'Didot';
+	margin: 0;
+}
+
+.gallery_title p{
+	color: #5c5c5c;
+	line-height: 30px;
+	font-size: 16px;
+}
+
+ul{
+	list-style: none;
+	padding-left: 0;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.artist li{
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+li a:hover{
+	opacity: 0.8;
+}
+
+.list_item{
+	width: 420px;
+	display: inline-block;
+	text-align: left;
+	margin-right: 10px;
+}
+
+.list_item_item{
+	display: inline-block;
+	width: 50%;
+	margin-left: 15px;
+	color: var(--dark-blue);
+}
+
+.list_item_item p{
+	font-size: 12px;
+}
+
+.list_item_item h3{
+	margin: 0 0 10px 0;
+	font-size: 20px;
+}
+
+hr{
+	border: solid 0.5px var(--dark-blue);
+	width: 95%;
+	margin-top: 30px;
+}
+
+
+section.event{
+	background-color: var(--right-green);
+	padding: 50px 0;
+	text-align: center;
+}
+
+.event h2{
+	color: var(--dark-blue);
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Didot';
+    margin: 0;
+}
+
+.event h3{
+	color: var(--dark-blue);
+	font-size: 20px;
+	font-weight: bold;
+	margin: 0;
+}
+
+.event p{
+	line-height: 30px;
+	color: #5c5c5c;
+}
+
+.photo_container{
+	padding: 0 100px;
+}
+
+.photo_container li{
+	width: 250px;
+	display: inline-block;
+}
+
+.photo_container li img{
+	width: 95%;
+	padding: 5px;
+}
+
+
+section.ripoD{
+	padding: 50px 0;
+	text-align: center;
+}
+
+.ripoD img{
+	width: 350px;
+}
+
+.ripoD_text{
+	margin: 20px 220px;
+	text-align: left;
+	font-size: 14px;
+	color: #5c5c5c;
+	line-height: 25px;
+}
+
+.ripoD_text span{
+	color: var(--right-green);
+}
+
+
+.component{
+	background-color: var(--right-green);
+	margin: 0 150px;
+}
+
+.component ul{
+	list-style: dotted;
+}
+
+.component_left, .component_right{
+	width: 40%;
+	padding: 20px;
+	display: inline-block;
+	text-align: left;
+	vertical-align: top;
+}
+
+.component_left h3, .component_right h3{
+	color: var(--dark-blue);
+	border-bottom: 0.5px solid var(--dark-blue);
+}
+
+.component_left p{
+	width: 80%;
+}
+
+.component ul li{
+	border-bottom: 0.5px dotted var(--dark-blue);
+	font-size: 12px;
+	line-height: 20px;
+	position: relative;
+	margin-bottom: 5px;
+	padding-bottom: 3px;
+}
+
+.component_right ul li:last-child, .component_left ul li:last-child{
+	border-bottom: none;
+}
+
+.component_left ul li span{
+	position: absolute;
+	right: 0;
+}
+
+
+
+
+footer{
+	background: var(--right-green);
+}
+
+footer .container{
+	padding: 50px 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+a{
+	text-decoration: none;
+}
+
+footer .btn{
+	color: var(--dark-blue);
+	display: inline-block;
+	background-color: #fff;
+	padding: 10px 20px;
+	border: 0.5px solid var(--dark-blue);
+}
+
+.icon{
+	width: 50px;
+	display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
