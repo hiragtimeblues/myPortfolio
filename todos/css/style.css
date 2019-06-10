@@ -38,10 +38,23 @@ body {
 .container ul {
   color: #fff;
   list-style: none;
+  padding-left: 0;
 }
 
 .container ul li {
-  margin-top: 15px;
+  margin-top: 1px;
+  background: #3f386c;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container ul li i {
+  padding-top: 4px;
+}
+
+.container ul li:first-child {
+  margin-top: 10px;
 }
 
 .container ul .filtered {

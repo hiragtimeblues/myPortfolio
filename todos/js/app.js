@@ -5,8 +5,8 @@ const search = document.querySelector('.search input');
 const generateTemplate = (todo) => {
     const html = `
         <li>
-            <span>${ todo }</span>
-            <i class="far fa-trash-alt delete"></i>
+                <span>${ todo }</span>
+                <i class="far fa-trash-alt delete"></i>
         </li>
     `;
 
